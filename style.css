@@ -6,7 +6,8 @@
 }
 body
 {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
+ 
 }
 ul
 {
@@ -182,11 +183,11 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 170px;
 }
 .texto2
 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,44 +195,71 @@ header
 
 .texto2 h3
 {
-    font-size: 50px;
-    
+    font-size: 70px;
 }
 
 .texto2 p
 {
     font-size: 30px;
+    width: 50vw;
 }
 
 .imagen-producto{
     width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    height: 270px;
+    width: 100%;
+    margin-top: -23px;
+    border-radius: 6px;
+    
 }
 
 .carta-producto
 {
     background-color: rgb(250, 235, 215);
-    border: 2px solid rgba(0, 0, 0, 0.521);
+    border: 1px solid rgba(0, 0, 0, 0.521);
     border-radius: 8px;
-    padding: 10px;
+    
     width: 350px;
-    height: 430px;
+    height: 390px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin: 10px;
+    margin-bottom: 70px;
     box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.658);
+
 }
 
 .carta-producto h4
 {
     font-size: 30px;
+    margin-top: -20px;
 }
 
 .carta-producto p
 {
-    font-size: 19px;
+    font-size: 20px;
+    margin-top: -30px;
 }
+.cartas-producto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contiene3
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartas-productos
+{
+    width: 80vw;
+}
+
 
