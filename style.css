@@ -54,6 +54,11 @@ nav ul li a
     color: rgb(0, 0, 0);
 }
 
+.logo a:hover
+{
+    text-shadow: 1px 0px 0px black;
+}
+
 nav ul li a:hover
 {
     color: rgb(255, 168, 39);
@@ -86,6 +91,8 @@ header
 .texto1 h2
 {
 
+    
+    
     margin-bottom: 20px;
     font-size: 70px;
 }
@@ -183,7 +190,7 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 170px;
+    margin-top: 140px;
 }
 .texto2
 {
@@ -196,6 +203,8 @@ header
 .texto2 h3
 {
     font-size: 70px;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
 }
 
 .texto2 p
@@ -332,4 +341,5 @@ header
 {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.897);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
