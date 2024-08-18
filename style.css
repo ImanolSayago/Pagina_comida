@@ -262,4 +262,37 @@ header
     width: 80vw;
 }
 
+.formulario
+{
+    width: 700px;
+    padding: 20px;
+    background-color: rgb(250, 235, 215);
+    border-radius: 5px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+}
 
+.formulario h4
+{
+
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.botones-form
+{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-enviar
+{
+    padding: 10px;
+    background-color: rgba(219, 219, 219, 0.603);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+}
