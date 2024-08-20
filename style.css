@@ -63,7 +63,7 @@ nav ul li a:hover
 {
     color: rgb(255, 168, 39);
     text-decoration: underline;
-    font-size: 26px;
+    
 }
 
 header
@@ -328,15 +328,26 @@ header
 .contactos
 {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
    
 }
 
 .contactos h5
 {
-    margin-bottom: 8px;
+    
+    margin: 10px;
+    
 }
 
+.contactos h5 a
+{
+    font-size: 25px;
+}
+
+.contactos h5 a:hover
+{
+    text-decoration: underline;
+}
 .copy h5
 {
     font-size: 20px;
