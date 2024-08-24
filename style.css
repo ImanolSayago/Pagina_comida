@@ -75,7 +75,6 @@ header
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    
     height: 90vh;
     background-image: url(imagenes/bg.svg);
     background-repeat: no-repeat;
@@ -369,3 +368,32 @@ header
     text-decoration: underline;
     
 }
+
+@media( max-width: 1386px ) {
+    
+    .imagen1 img
+    {
+        width: 35vw;
+        height: 70vh;
+    }
+    .cartas-info{
+        margin-top: 100px;
+    }
+
+    .texto1
+    {
+        margin-top: 130px;
+        margin-left: 150px;
+    }
+    header
+    {
+        background-position: 725px;
+        
+    }
+
+    .formulario
+    {
+        width: 70%;
+    }
+}
+
